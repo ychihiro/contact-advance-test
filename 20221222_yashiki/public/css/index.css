@@ -1,0 +1,206 @@
+.form-wrapper {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.ttl {
+  margin-bottom: 45px;
+}
+
+.form-required {
+  color: red;
+  margin-left: 5px;
+}
+
+.form-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.form-item-gender {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+
+.form-item-opinion {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-label-gender {
+  margin-right: 120px;
+  font-weight: bold;
+}
+
+.input-name {
+  width: 258px;
+  height: 45px;
+  font-size: 16px;
+  padding: 5px;
+  margin-left: 20px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.input-email,
+.input-address,
+.input-building {
+  width: 540px;
+  height: 45px;
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.input-postcode {
+  width: 510px;
+  height: 45px;
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.postcode-mark {
+  margin-right: 6px;
+  font-weight: bold;
+}
+
+.input-opinion {
+  width: 540px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.example-wrapper-name {
+  display: flex;
+  justify-content: baseline;
+  margin-left: 190px;
+}
+
+.example-lastname {
+  margin-left: 228px;
+}
+
+.example {
+  margin-right: 5px;
+}
+
+.example-firstname,
+.example-lastname,
+.example-postcode {
+  margin-top: 10px;
+  color: #999;
+}
+
+.example-postcode {
+  margin-left: 220px;
+}
+
+.example-email,
+.example-address,
+.example-building {
+  margin-left: 190px;
+  margin-top: 10px;
+  color: #888;
+}
+
+.gender-check-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gender-check {
+  margin-right: 45px;
+  cursor: pointer;
+}
+
+.radio-input {
+  transform: scale(3.0);
+  cursor: pointer;
+}
+
+.radio-label {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.confirm-btn {
+  display: block;
+  margin: 35px auto 40px;
+  width: 160px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #333;
+}
+
+.form-error {
+  background-color: rgb(243, 181, 191);
+  border: 1px solid red;
+}
+
+.error-msg,
+.error-name,
+.error-gender,
+.error-email,
+.error-postcode,
+.error-address,
+.error-opinion {
+  text-align: center;
+  padding: 10px;
+  color: red;
+}
+
+@media screen and (max-width:768px) {
+  .form-wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  .form-item,
+  .form-item-opinion {
+    display: block;
+  }
+  .form-label-gender {
+    margin-right: 70px;
+  }
+  .input-name {
+    margin-left: 0;
+    width: 215px;
+  }
+  .example-wrapper-name,
+  .example-email,
+  .example-address,
+  .example-building,
+  .example-postcode {
+    margin-left: 20px;
+  }
+  .example-lastname {
+    margin-left: 180px;
+  }
+  .form-label {
+    margin-bottom: 10px;
+  }
+  .input-email,
+  .input-address,
+  .input-building,
+  .input-opinion {
+    width: 100%
+  }
+  .input-postcode {
+    width: 94%;
+  }
+
+}
